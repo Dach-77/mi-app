@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, .navbar-brand {
 }
 
 .hero-section { 
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/FondoInicio.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('..public/assets/FondoInicio.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
