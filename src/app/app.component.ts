@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { link } from 'node:fs';
 
 @Component({
   selector: 'app-root',
@@ -33,19 +34,19 @@ export class AppComponent {
   // Arreglo de Portafolio / Casos de éxito
   portafolio = [
     {
-      imagen: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      imagen: 'assets/casos1.png',
       titulo: 'E-commerce Moda',
       detalle: 'Desarrollo de tienda online con pasarela de pagos y gestión de inventario automatizada.',
       enlace: '#'
     },
     {
-      imagen: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      imagen: 'assets/casos2.png',
       titulo: 'App de Delivery',
       detalle: 'Aplicación móvil nativa para Android e iOS con rastreo satelital en tiempo real.',
       enlace: '#'
     },
     {
-      imagen: 'https://images.unsplash.com/photo-1522881113593-9d18e8031d27?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      imagen: 'assets/casos3.png',
       titulo: 'Dashboard Analítico',
       detalle: 'Sistema web para la visualización de métricas y KPIs empresariales interactivos.',
       enlace: '#'
